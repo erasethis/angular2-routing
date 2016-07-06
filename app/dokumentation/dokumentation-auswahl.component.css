@@ -17,3 +17,26 @@
     transition: left ease-in-out 0.25s;
     box-shadow: none;
 }
+ul {
+list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    height: 40px;
+    box-sizing: border-box;
+}
+li:hover, li a.active {
+    color: white;
+    background-color: #666;
+}
+li a {
+    text-decoration: none;
+    color: #eee;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16pt;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 8px;
+    width: 100%;
+}
