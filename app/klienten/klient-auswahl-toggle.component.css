@@ -1,22 +1,22 @@
-.ngr-dokumentation-auswahl-toggle {
+.ngr-klient-auswahl-toggle {
     position: absolute;
     width: 50px;
     height: 50px;
     z-index: 1010;
     background-color: teal;
     top: 0;
-    left: 0;
+    right: 0;
 }
 
-.ngr-dokumentation-auswahl-toggle a i { 
+.ngr-klient-auswahl-toggle a i { 
     font-size: 16pt;
     margin: 15px;
     color: #eee;
 }
 
-.ngr-dokumentation-auswahl-toggle:hover {
+.ngr-klient-auswahl-toggle:hover {
     background-color: #009688;
 }
-.ngr-dokumentation-auswahl-toggle:hover a i {
+.ngr-klient-auswahl-toggle:hover a i {
     color: white;
 }

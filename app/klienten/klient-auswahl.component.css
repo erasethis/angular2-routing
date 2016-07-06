@@ -7,4 +7,12 @@
     top: 0;
     right: 0;
     padding-top: 50px;
+    transition: right ease-in-out 0.25s;
+    overflow-x: hidden;
+    box-shadow: -20px 0 100px black;
+}
+.ngr-klient-auswahl.collapsed {
+    right: -200px;
+    transition: right ease-in-out 0.25s;
+    box-shadow: none;
 }
