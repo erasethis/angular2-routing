@@ -1,0 +1,14 @@
+.ngr-app {
+    position: relative;
+    height: 100%;
+}
+.ngr-app h1 {
+    color: white;
+    background-color: teal;
+    font-family: "Segoe UI", sans-serif;
+    height: 50px;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    padding-left: 58px;
+}

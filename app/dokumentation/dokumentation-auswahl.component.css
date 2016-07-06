@@ -1,0 +1,17 @@
+.ngr-dokumentation-auswahl {
+    color: white;
+    background-color: #444;
+    height: 100%;
+    width: 200px;
+    z-index: 500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    transition: left ease-in-out 0.5s;
+    overflow-x: hidden;
+}
+.ngr-dokumentation-auswahl.collapsed {
+    left: -200px;
+    transition: left ease-in-out 0.5s;
+}
