@@ -1,8 +1,8 @@
 .ngr-dokumentation-auswahl {
     color: white;
-    background-color: #444;
+    background-color: #222;
     height: 100%;
-    width: 200px;
+    width: 250px;
     z-index: 500;
     position: absolute;
     top: 0;
@@ -13,7 +13,7 @@
     box-shadow: 20px 0 100px black;
 }
 .ngr-dokumentation-auswahl.collapsed {
-    left: -200px;
+    left: -250px;
     transition: left ease-in-out 0.25s;
     box-shadow: none;
 }
@@ -28,7 +28,7 @@ li {
 }
 li:hover, li a.active {
     color: white;
-    background-color: #666;
+    background-color: #444;
 }
 li a {
     text-decoration: none;

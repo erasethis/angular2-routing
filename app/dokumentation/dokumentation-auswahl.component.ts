@@ -14,11 +14,11 @@ import {
     template: `
         <div class="ngr-dokumentation-auswahl" [ngClass]="{ collapsed: collapsed }">
             <ul>
-                <li><a [routerLink]="['pflegebericht']" routerLinkActive="active">Pflegebericht</a></li>
-                <li><a [routerLink]="['vitalwerte']" routerLinkActive="active">Vitalwerte</a></li>
-                <li><a [routerLink]="['bilanzierung']" routerLinkActive="active">Bilanzierung</a></li>
-                <li><a [routerLink]="['hygiene']" routerLinkActive="active">Hygiene</a></li>
-                <li><a [routerLink]="['inkontinenz']" routerLinkActive="active">Kontinenzversorgung</a></li>
+                <li><a [routerLink]="['./pflegebericht']" routerLinkActive="active">Pflegebericht</a></li>
+                <li><a [routerLink]="['./vitalwerte']" routerLinkActive="active">Vitalwerte</a></li>
+                <li><a [routerLink]="['./bilanzierung']" routerLinkActive="active">Bilanzierung</a></li>
+                <li><a [routerLink]="['./hygiene']" routerLinkActive="active">Hygiene</a></li>
+                <li><a [routerLink]="['./inkontinenz']" routerLinkActive="active">Kontinenzversorgung</a></li>
             </ul>
         </div>
     `,
