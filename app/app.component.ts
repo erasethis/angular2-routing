@@ -5,7 +5,6 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
   selector: 'ngr-app',
   template: `
       <div class="ngr-app">
-        <h1>App</h1>
         <router-outlet></router-outlet>
       <div>
   `,
